@@ -11,3 +11,10 @@
 | TC-007  | FR-009      | Multi-user       | Multiple users              | No crash                    |               |        |
 | TC-008  | FR-010      | Admin monitoring | Access logs                 | Logs visible                |               |        |
 
+## Non-Functional Tests
+
+**Performance Test:**
+Simulate 1000 users → system responds within 2 seconds
+
+**Security Test:**
+Ensure user data is encrypted and protected
