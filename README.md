@@ -6,18 +6,27 @@ The AI-Powered Fake News Detection System is a web-based platform designed to he
 
 The goal of this system is to support media literacy and reduce the spread of misinformation by providing users with automated credibility assessments.
 
-## Project Documents
+## Documentation
 
-* [System Specification](SPECIFICATION.md)
-* [System Architecture](ARCHITECTURE.md)
-* [Stakeholder Analysis](STAKEHOLDERS.md)
-* [System Requirements](REQUIREMENTS.md)
-* [Use Cases](USECASES.md)
-* [Test Cases](TESTCASES.md)
-* [Agile Planning](AGILE.md)
-* [Reflection](REFLECTION.md)
-* [Reflection 2](REFLECTION2.md)
-* [Reflection 3](REFLECTION3.md)
+### System Design
+- [Specification](SPECIFICATION.md)
+- [Architecture](ARCHITECTURE.md)
+
+### Requirements Engineering
+- [Stakeholders](STAKEHOLDERS.md)
+- [System Requirements (SRD)](REQUIREMENTS.md)
+
+### System Modeling
+- [Use Cases](USECASES.md)
+- [Test Cases](TESTCASES.md)
+
+### Agile Development
+- [Agile Planning](AGILE.md)
+
+### Reflections
+- [Reflection 1](REFLECTION.md)
+- [Reflection 2](REFLECTION2.md)
+- [Reflection 3](REFLECTION3.md)
 
 ## Planned Features
 
