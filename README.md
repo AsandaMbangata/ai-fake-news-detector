@@ -12,7 +12,12 @@ The goal of this system is to support media literacy and reduce the spread of mi
 * [System Architecture](ARCHITECTURE.md)
 * [Stakeholder Analysis](STAKEHOLDERS.md)
 * [System Requirements](REQUIREMENTS.md)
+* [Use Cases](USECASES.md)
+* [Test Cases](TESTCASES.md)
+* [Agile Planning](AGILE.md)
 * [Reflection](REFLECTION.md)
+* [Reflection 2](REFLECTION2.md)
+* [Reflection 3](REFLECTION3.md)
 
 ## Planned Features
 
