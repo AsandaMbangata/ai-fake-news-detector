@@ -27,6 +27,11 @@ The goal of this system is to support media literacy and reduce the spread of mi
 ### Agile Development
 - [Agile Planning](AGILE.md)
 
+### GitHub Agile Tools
+- [Issues](../../issues)
+- [Project Board](../../projects)
+- [Milestones](../../milestones)
+  
 ### Reflections
 - [Reflection 1](REFLECTION.md)
 - [Reflection 2](REFLECTION2.md)
@@ -49,7 +54,20 @@ The goal of this system is to support media literacy and reduce the spread of mi
 * Database: Article storage and results
 
 ## Kanban Board Customization
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/f949482a-e290-44a9-a9c8-43e6bf92a6a7" />
+
 
 The Kanban board was customized by adding additional columns such as "Testing" and "Blocked" to better represent the project workflow. The "Testing" column was added to ensure that completed tasks are verified before being marked as done, improving quality assurance. The "Blocked" column helps identify tasks that cannot proceed due to issues or dependencies, allowing better tracking of bottlenecks. These additions improve workflow visibility and align the board with real-world Agile development practices.
+
+### Screenshots
+Template comparison
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/7e9d2541-9a5e-488a-ac5f-ffb514abbe32" />
+<img width="806" height="417" alt="image" src="https://github.com/user-attachments/assets/0c9719cf-013a-4c85-a241-094b94d1db18" />
+<img width="807" height="427" alt="image" src="https://github.com/user-attachments/assets/eb58cc4a-9c15-4901-8b51-2840bddfcb39" />
+
+Custom Kanban board.
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/7e9d2541-9a5e-488a-ac5f-ffb514abbe32" />
+
+
 
 
