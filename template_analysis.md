@@ -2,6 +2,14 @@
 
 ## Comparison of GitHub Project Templates
 
+### Screenshots:
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/7e9d2541-9a5e-488a-ac5f-ffb514abbe32" />
+
+<img width="806" height="417" alt="image" src="https://github.com/user-attachments/assets/0c9719cf-013a-4c85-a241-094b94d1db18" />
+
+<img width="807" height="427" alt="image" src="https://github.com/user-attachments/assets/eb58cc4a-9c15-4901-8b51-2840bddfcb39" />
+
+
 | Template         | Workflow Columns                  | Automation Features                        | Agile Suitability                        | Advantages                               | Limitations                                |
 | ---------------- | --------------------------------- | ------------------------------------------ | ---------------------------------------- | ---------------------------------------- | ------------------------------------------ |
 | Basic Kanban     | To Do, In Progress, Done          | No automation                              | Suitable for simple workflows            | Easy to use, simple setup                | Manual updates required                    |
