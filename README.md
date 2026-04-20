@@ -31,12 +31,17 @@ The goal of this system is to support media literacy and reduce the spread of mi
 - [Issues](../../issues)
 - [Project Board](../../projects)
 - [Milestones](../../milestones)
+
+### Diagrams
+- [State Diagrams](STATE_TRANSITION_DIAGRAMS.md)
+- [Activity Diagrams](ACTIVITY_DIAGRAMS.md)
   
 ### Reflections
 - [Reflection 1](REFLECTION.md)
 - [Reflection 2](REFLECTION2.md)
 - [Reflection 3](REFLECTION3.md)
 - [Reflection 4](reflection.md)
+- [Reflection](assignment8_reflection.md)
 
 ## Planned Features
 
