@@ -1,1 +1,14 @@
+# Reflection
+
+Designing the domain model and class diagram for the fake news detection system was a challenging but useful process. One of the main difficulties I faced was deciding the level of detail to include in the model. At the beginning, I wasn’t sure whether to combine certain parts of the system or separate them into different entities. For example, it was not immediately clear whether the classification process should be part of the news article or handled as a separate component. In the end, separating entities like NewsArticle, Result, and MLModel made the system clearer and easier to understand.
+
+Another challenge was defining the attributes and methods for each class. While identifying attributes such as IDs, text, and scores was straightforward, deciding on appropriate methods required more thought. I had to make sure that each method reflected an actual system action from earlier assignments, such as submitText(), preprocess(), and classify(). At times, it was tempting to add more detailed methods, but I had to keep the design simple and focused on the core functionality.
+
+Understanding and defining relationships between the classes was also not easy. I had to think carefully about how different parts of the system interact. For instance, I defined a one-to-one relationship between NewsArticle and Result because each article produces a single classification. I also linked User to NewsArticle to represent submission, and Database to both articles and results to show storage. I avoided making the relationships too complex, as that would have made the diagram harder to read.
+
+The class diagram aligns well with the previous assignments. The methods and classes directly reflect the functional requirements and use cases. For example, the MLModel class represents the requirement for analyzing text, while the Database class supports storing and retrieving results. The Admin class connects to monitoring and management tasks described earlier. This consistency helped ensure that the design is traceable and logically connected to the system requirements.
+
+Some trade-offs were made during the design. I decided not to use inheritance, even though Admin could be modeled as a type of User. Keeping them separate made the diagram simpler and easier to follow. I also limited the number of attributes and methods to avoid overcomplicating the model, even though more detail could have been added.
+
+Overall, this assignment helped me better understand how to translate system requirements into a structured design. It showed the importance of keeping diagrams clear while still accurate, and how different parts of the system connect. It also highlighted how domain models and class diagrams play an important role in organizing and planning a system before implementation.
 
