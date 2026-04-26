@@ -35,13 +35,18 @@ The goal of this system is to support media literacy and reduce the spread of mi
 ### Diagrams
 - [State Diagrams](STATE_TRANSITION_DIAGRAMS.md)
 - [Activity Diagrams](ACTIVITY_DIAGRAMS.md)
+
+### Domain Modeling and Class Diagram
+- [Domain Model](DOMAIN_MODEL.md)
+- [Class Diagram](CLASS_DIAGRAM.md)
   
 ### Reflections
 - [Reflection 1](REFLECTION.md)
 - [Reflection 2](REFLECTION2.md)
 - [Reflection 3](REFLECTION3.md)
 - [Reflection 4](reflection.md)
-- [Reflection](assignment8_reflection.md)
+- [Reflection 5](assignment8_reflection.md)
+- [Reflection 6](ASSIGNMENT9_REFLECTION.md)
 
 ## Planned Features
 
