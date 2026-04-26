@@ -20,7 +20,7 @@ The goal of this system is to support media literacy and reduce the spread of mi
 - [Use Cases](USECASES.md)
 - [Test Cases](TESTCASES.md)
 
-### Assignment 7: Kanban & GitHub Projects
+### Kanban & GitHub Projects
 - [Template Analysis](template_analysis.md)
 - [Kanban Explanation](kanban_explanation.md)
 
