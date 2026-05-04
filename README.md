@@ -114,9 +114,8 @@ The project is divided into:
 This separation ensures clarity and maintainability.
 
 ### Evidence
+<img width="1643" height="766" alt="image" src="https://github.com/user-attachments/assets/cbcc6248-76fb-47de-a2f0-8a51a4b9c136" />
 
-<img width="1477" height="666" alt="image" src="https://github.com/user-attachments/assets/653ef2cd-66cb-434a-8163-2499ec9988ad" />
-<img width="1480" height="611" alt="image" src="https://github.com/user-attachments/assets/1c6e3071-188e-435e-b01d-2a6dbbfd7ef9" />
 
 
 
