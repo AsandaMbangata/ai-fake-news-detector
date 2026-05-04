@@ -48,6 +48,9 @@ The goal of this system is to support media literacy and reduce the spread of mi
 - [Reflection 5](assignment8_reflection.md)
 - [Reflection 6](ASSIGNMENT9_REFLECTION.md)
 
+### Changelog
+ - [CHANGELOG.md](./CHANGELOG.md)
+
 ## Planned Features
 
 * Submit news text or article links
