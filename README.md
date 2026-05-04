@@ -63,11 +63,61 @@ The goal of this system is to support media literacy and reduce the spread of mi
 * AI Model: NLP-based classification
 * Database: Article storage and results
 
-## Kanban Board Customization
-<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/f949482a-e290-44a9-a9c8-43e6bf92a6a7" />
+# Language Choice and Design Decisions
 
+### Programming Language Choice
 
-The Kanban board was customized by adding additional columns such as "Testing" and "Blocked" to better represent the project workflow. The "Testing" column was added to ensure that completed tasks are verified before being marked as done, improving quality assurance. The "Blocked" column helps identify tasks that cannot proceed due to issues or dependencies, allowing better tracking of bottlenecks. These additions improve workflow visibility and align the board with real-world Agile development practices.
+This project was implemented in Python because it provides:
+
+- Simple and readable syntax, making it ideal for rapid development
+-Strong support for testing frameworks such as pytest
+- Good structure for implementing design patterns
+- Wide use in AI and data-driven applications
+
+Python was selected to ensure maintainability and ease of testing throughout the development process.
+
+### Key Design Decisions
+#### 1. Object-Oriented Design
+
+The system is structured using object-oriented principles to improve:
+
+- Modularity
+- Code reusability
+- Maintainability
+
+Core entities such as User, NewsArticle, and Result are represented as separate classes.
+
+#### 2. Creational Design Patterns
+
+Multiple creational patterns were implemented to demonstrate flexible object creation:
+
+- Factory Method & Simple Factory → centralised object creation logic
+- Abstract Factory → creation of related objects without specifying concrete classes
+- Builder Pattern → step-by-step construction of complex objects
+- Prototype Pattern → cloning existing objects efficiently
+- Singleton Pattern → ensures a single shared instance where required
+
+These patterns improve scalability and reduce tight coupling between components.
+
+#### 3. Testing Strategy
+- pytest was used for unit testing
+- pytest-cov was used to measure test coverage
+- Tests focus on verifying correctness of design pattern implementations
+
+#### 4. Project Structure
+
+The project is divided into:
+- src/ → core application logic
+- creational_patterns/ → design pattern implementations
+- tests/ → unit tests
+  
+This separation ensures clarity and maintainability.
+
+### Evidence
+
+<img width="1477" height="666" alt="image" src="https://github.com/user-attachments/assets/653ef2cd-66cb-434a-8163-2499ec9988ad" />
+<img width="1480" height="611" alt="image" src="https://github.com/user-attachments/assets/1c6e3071-188e-435e-b01d-2a6dbbfd7ef9" />
+
 
 
 
