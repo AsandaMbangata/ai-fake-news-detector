@@ -120,7 +120,7 @@ This separation ensures clarity and maintainability.
 <img width="1643" height="766" alt="image" src="https://github.com/user-attachments/assets/cbcc6248-76fb-47de-a2f0-8a51a4b9c136" />
 
 # Architecture Justification for Assignment 11
-### Task 1: Repository Interface Design
+## Task 1: Repository Interface Design
 
 The system uses a Repository Interface layer to decouple business logic from data access logic.
 
@@ -134,7 +134,7 @@ Scalability: New data sources can be added by implementing the same interface.
 
 This aligns with clean architecture principles and supports long-term maintainability.
 
-### Task 3: Storage-Abstraction Mechanism (Dependency Injection vs Factory)
+## Task 3: Storage-Abstraction Mechanism (Dependency Injection vs Factory)
 
 The system uses Dependency Injection (DI) rather than a Factory pattern for managing storage implementations.
 
@@ -147,6 +147,10 @@ D (Dependency Inversion Principle): High-level modules depend on abstractions, n
 Why not Factory Pattern:
 
 While the Factory pattern centralizes object creation, it still introduces hidden coupling inside the factory, making runtime substitution and testing less flexible compared to DI.
+
+## Task 4: Future-Proofing
+
+The class diagram has been updated to include repository interfaces and their concrete implementations, ensuring improved extensibility, maintainability, and a clear separation between business logic and data access layers.
 
 
 
