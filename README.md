@@ -119,6 +119,35 @@ This separation ensures clarity and maintainability.
 ### Evidence
 <img width="1643" height="766" alt="image" src="https://github.com/user-attachments/assets/cbcc6248-76fb-47de-a2f0-8a51a4b9c136" />
 
+# Architecture Justification for Assignment 11
+### Task 1: Repository Interface Design
+
+The system uses a Repository Interface layer to decouple business logic from data access logic.
+
+Each repository defines a clear contract (e.g., UserRepository, NewsArticleRepository) that specifies CRUD operations without exposing implementation details.
+
+Why this approach was chosen:
+Separation of concerns: Business logic does not depend on storage logic.
+Testability: Repositories can be easily mocked or replaced in unit tests.
+Flexibility: Enables swapping between in-memory, file-based, or database storage without modifying core logic.
+Scalability: New data sources can be added by implementing the same interface.
+
+This aligns with clean architecture principles and supports long-term maintainability.
+
+### Task 3: Storage-Abstraction Mechanism (Dependency Injection vs Factory)
+
+The system uses Dependency Injection (DI) rather than a Factory pattern for managing storage implementations.
+
+Why Dependency Injection was chosen:
+Loose coupling: Components receive dependencies externally instead of creating them internally.
+Improved testability: Mock repositories can be injected during testing without modifying production code.
+Flexibility in configuration: Storage type (e.g., in-memory, database) can be selected at runtime via configuration.
+Better adherence to SOLID principles, especially:
+D (Dependency Inversion Principle): High-level modules depend on abstractions, not concrete implementations.
+Why not Factory Pattern:
+
+While the Factory pattern centralizes object creation, it still introduces hidden coupling inside the factory, making runtime substitution and testing less flexible compared to DI.
+
 
 
 
