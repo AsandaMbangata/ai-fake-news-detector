@@ -17,3 +17,12 @@ class InMemoryUserRepository(UserRepository):
     def delete(self, entity_id):
         if entity_id in self._storage:
             del self._storage[entity_id]
+
+
+    def update(self, user_id, updated_user):
+        self._storage[user_id] = updated_user
+
+
+    def delete(self, user_id):
+        if user_id in self._storage:
+           del self._storage[user_id]        

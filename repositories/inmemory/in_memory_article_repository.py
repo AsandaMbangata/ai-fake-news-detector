@@ -17,3 +17,11 @@ class InMemoryArticleRepository(ArticleRepository):
     def delete(self, entity_id):
         if entity_id in self._storage:
             del self._storage[entity_id]
+
+
+    def update(self, article_id, updated_article):
+        self._storage[article_id] = updated_article
+
+    def delete(self, article_id):
+        if article_id in self._storage:
+            del self._storage[article_id]        
