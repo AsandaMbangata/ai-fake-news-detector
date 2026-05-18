@@ -49,7 +49,7 @@ The goal of this system is to support media literacy and reduce the spread of mi
 - [Reflection 6](ASSIGNMENT9_REFLECTION.md)
 
 ### Changelog
- - [CHANGELOG.md](./CHANGELOG.md)
+ - [CHANGELOG.md](CHANGELOG.md)
 
 ## Planned Features
 
@@ -152,8 +152,76 @@ While the Factory pattern centralizes object creation, it still introduces hidde
 
 The class diagram has been updated to include repository interfaces and their concrete implementations, ensuring improved extensibility, maintainability, and a clear separation between business logic and data access layers.
 
+## REST API
+
+This project uses FastAPI to expose RESTful API endpoints for managing users, articles, and analysis results.
+
+Run the API server using:
+
+```bash
+uvicorn main:app --reload
+
+```
+
+## CRUD Endpoints
+
+### Users
+- GET `/api/users`
+- POST `/api/users`
+- PUT `/api/users/{id}`
+- DELETE `/api/users/{id}`
+
+### Articles
+- GET `/api/articles`
+- POST `/api/articles`
+- PUT `/api/articles/{id}`
+- DELETE `/api/articles/{id}`
+
+### Results
+- GET `/api/results`
+- POST `/api/results`
+- PUT `/api/results/{id}`
+- DELETE `/api/results/{id}`
+
+### Workflow Endpoint
+- POST `/api/articles/{id}/analyze`
+
+## Swagger Documentation
+
+FastAPI automatically generates Swagger/OpenAPI documentation.
+
+Open in browser:
+
+http://127.0.0.1:8000/docs
+
+## Testing
+
+Testing was implemented using pytest and FastAPI TestClient.
+
+The project includes:
+- Repository unit tests
+- Service layer tests
+- API integration tests
+- Coverage testing using pytest-cov
+
+Run tests:
+
+```bash
+pytest
+
+pytest --cov=services --cov=api --cov=repositories
 
 
+```
+## Architecture
+
+The project follows a layered architecture:
+
+```text
+API Layer → Service Layer → Repository Layer
+```
+# Evidence
+[Screenshots](screenshots.md)
 
 
 
