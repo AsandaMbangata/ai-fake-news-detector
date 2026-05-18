@@ -1,7 +1,5 @@
 # Changelog
 
-## [1.0.0] - 2026-05-04
-
 ### Added
 - Implemented all creational design patterns:
   - Simple Factory
@@ -27,3 +25,25 @@
 - Linked commits to issues using `Fix #ID` format
 - Cleaned repository structure and added `.gitignore`
 - Removed `__pycache__` and `.coverage` files from tracking
+
+## Repository Layer Update
+- Added repository abstraction layer
+- Added in-memory repositories for User, Article, and Result
+- Added CRUD operations
+- Added repository unit tests
+- Added future database repository stubs
+- Improved project structure and maintainability
+
+## Assignment 12 Update
+### Added
+- Service layer architecture
+- REST API using FastAPI
+- CRUD API endpoints
+- Article analysis workflow endpoint
+- API integration tests
+- Swagger/OpenAPI documentation
+
+### Improved
+- Repository abstraction
+- Layered application architecture
+- Test coverage
