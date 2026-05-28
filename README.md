@@ -223,6 +223,27 @@ API Layer → Service Layer → Repository Layer
 # Evidence
 [Screenshots](screenshots.md)
 
+## CI/CD Pipeline
+
+This project uses GitHub Actions to automate testing and artifact generation.
+
+### Continuous Integration (CI)
+The CI pipeline automatically:
+- Runs on every push
+- Runs on pull requests to main
+- Installs project dependencies
+- Executes all unit and integration tests
+- Runs coverage checks
+
+### Continuous Deployment (CD)
+When changes are merged into the main branch:
+- A release artifact ZIP file is automatically generated
+- The artifact is uploaded using GitHub Actions
+
+The workflow configuration is located in:
+
+.github/workflows/ci.yml
+
 
 
 
