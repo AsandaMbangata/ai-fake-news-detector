@@ -1,0 +1,4 @@
+{
+  "tests/test_prototype.py::test_prototype_clone": true,
+  "tests/test_prototype.py::test_prototype_deep_copy_behavior": true
+}
