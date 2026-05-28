@@ -8,7 +8,7 @@ from creational_patterns.builder import ReportBuilder
 def test_singleton():
     db1 = DatabaseConnection()
     db2 = DatabaseConnection()
-    assert db1 != db2
+    assert db1 is db2
 
 def test_simple_factory_real():
     obj = NewsFactory.create_news("real")
