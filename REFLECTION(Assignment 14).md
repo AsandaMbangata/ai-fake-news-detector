@@ -1,1 +1,15 @@
+# Assignment 14 Reflection
 
+This assignment focused on preparing the AI-Powered Fake News Detection System for open-source collaboration and community-driven development.
+
+A CONTRIBUTING.md file was created to provide clear guidelines for new contributors, including project setup instructions, testing procedures, coding standards, and pull request requirements. This helps ensure consistency and makes it easier for new developers to participate in the project.
+
+GitHub Issues were expanded and organised using labels such as good-first-issue and feature-request. This improved project organisation and provided contributors with clearly defined tasks and future enhancement opportunities.
+
+A ROADMAP.md document was developed to outline planned project improvements across future versions. This provided a structured vision for the project's growth and helped prioritise development activities.
+
+A VOTING_RESULTS.md document was created to simulate community feature prioritisation. This demonstrated how stakeholder and contributor feedback can influence project planning and roadmap decisions.
+
+The project README was updated with contributor information and onboarding guidance to improve accessibility for new contributors. An open-source LICENSE was also added to clarify usage and distribution rights.
+
+Through this assignment, I gained practical experience in open-source project management, contributor onboarding, issue management, roadmap planning, feature prioritisation, and community engagement practices commonly used in professional software development projects.
