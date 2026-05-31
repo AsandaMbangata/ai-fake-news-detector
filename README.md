@@ -244,6 +244,57 @@ The workflow configuration is located in:
 
 .github/workflows/ci.yml
 
+## Getting Started
+
+### Prerequisites
+
+- Python 3.13+
+- FastAPI
+- pytest
+- pytest-cov
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd AI_Fake_News_Detector
+```
+
+Install dependencies:
+
+```bash
+pip install fastapi uvicorn pytest pytest-cov httpx
+```
+
+Run the application:
+
+```bash
+uvicorn main:app --reload
+```
+
+Run tests:
+
+```bash
+pytest
+```
+## Community Contributions
+
+Contributors can participate by:
+
+- Fixing bugs
+- Adding tests
+- Improving documentation
+- Implementing new features
+- Reviewing pull requests
+
+See CONTRIBUTING.md for contribution guidelines.
+
+Current contribution opportunities are available in GitHub Issues under:
+
+- good-first-issue
+- feature-request
 
 
 
